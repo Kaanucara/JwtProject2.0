@@ -1,0 +1,35 @@
+﻿{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/Auth/{everything}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/Auth/{everything}",
+      "DownstreamScheme": "https", // JwtLogin projesi http üzerinde çalışıyorsa burayı "http" yap
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7239 // JwtLogin projesinin portunu belirt
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/Crud/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DownstreamPathTemplate": "/api/Crud/{everything}",
+      "DownstreamScheme": "https", // JwtCrud projesi http üzerinde çalışıyorsa burayı "http" yap
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7273 // JwtCrud projesinin portunu belirt
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
+}

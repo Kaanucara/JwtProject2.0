@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="Birden Çok Proje">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.JwtLogin PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiGateway/Ocelot.json">
+    <Files>
+      <File FileName="JwtCrud/Data/MyDbContext.cs" />
+      <File FileName="JwtCrud/Model/Country.cs" Line="1" Column="1" />
+      <File FileName="JwtCrud/Properties/UserDataModel.cs" />
+      <File FileName="JwtCrud/Properties/launchSettings.json" />
+      <File FileName="JwtLogin/appsettings.json" />
+      <File FileName="JwtLogin/Data/LoginModel.cs" />
+      <File FileName="ApiGateway/appsettings.json" />
+      <File FileName="JwtCrud/Program.cs" />
+      <File FileName="JwtLogin/Program.cs" />
+      <File FileName="JwtLogin/Controllers/AuthController.cs" />
+      <File FileName="JwtLogin/Controllers/AdminController.cs" />
+      <File FileName="JwtCrud/Controllers/CrudController.cs" Line="60" Column="37" />
+      <File FileName="JwtCrud/appsettings.json" />
+      <File FileName="JwtLogin/appsettings.Development.json" />
+      <File FileName="JwtLogin/Properties/launchSettings.json" />
+      <File FileName="JwtCrud/appsettings.Development.json" />
+      <File FileName="ApiGateway/Program.cs" Line="28" Column="22" />
+      <File FileName="ApiGateway/Ocelot.json" Line="22" Column="31" />
+      <File FileName="ApiGateway/appsettings.Development.json" />
+      <File FileName="ApiGateway/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JwtProject2.0" expanded="True">
+            <Node name="ApiGateway">
+              <Node name="ocelot.json" selected="True" />
+            </Node>
+            <Node name="JwtCrud">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="JwtLogin" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.ItemProperties.JwtCrud PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Birden Çok Proje" Name="Birden Çok Proje">
+      <Items>
+        <StartupItem ItemId="{8794ECE2-1B6E-46B0-9B37-38BC9D49A0D5}" ItemName="ApiGateway" ConfigurationId="https" />
+        <StartupItem ItemId="{CD17397B-389A-41B5-8FFA-6B3312CD6939}" ItemName="JwtCrud" ConfigurationId="https" />
+        <StartupItem ItemId="{92BF51CA-6F13-463D-BF75-4D2B708C893C}" ItemName="JwtLogin" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.ApiGateway PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>
